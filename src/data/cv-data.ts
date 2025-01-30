@@ -53,7 +53,7 @@ export const cvData: CVData = {
   },
   sections: {
     summary:
-      "A versatile software engineer with over three years of experience in software development, data engineering and DevOps. Mastery in Python and its web framework and proficient in CI/CD Pipelines using Docker and Kubernetes. Skilled in optimizing processes and delivering innovative solutions to drive business growth.",
+      "Versatile software engineer with 3+ years of experience in software development, data engineering, and DevOps. Proficient in Python, Django, Docker, Kubernetes, and CI/CD pipelines, with a proven track record of optimizing deployment processes and improving system performance. Passionate about open-source contributions, emerging technologies, and mentoring junior developers to foster collaborative growth. Skilled in designing scalable microservices, REST APIs, and AI-powered solutions to drive business innovation.",
     experience: [
       {
         title: "Software Engineer",
