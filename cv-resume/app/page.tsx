@@ -2,6 +2,7 @@ import Header from '../src/components/Header';
 import Section from '../src/components/Section';
 import ExperienceItem from '../src/components/ExperienceItem';
 import { cvData } from '../src/data/cv-data';
+import SkillsSection from '@/src/components/Skills';
 
 export default function Home() {
   return (
@@ -41,7 +42,8 @@ export default function Home() {
         </Section>
 
         <Section title="Skills">
-          <div className="bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full text-center text-slate-700 dark:text-slate-200">
+          <SkillsSection/>
+          {/* <div className="bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full text-center text-slate-700 dark:text-slate-200">
             {cvData.sections.skills.map((skill, index) => (
               <div 
                 key={index}
@@ -50,7 +52,7 @@ export default function Home() {
                 {skill}
               </div>
             ))}
-          </div>
+          </div> */}
         </Section>
 
         <div className="grid md:grid-cols-2 gap-8">

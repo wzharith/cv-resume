@@ -46,8 +46,8 @@ export const cvData: CVData = {
       phone: "+6017 404 7441",
       email: "wzharith@gmail.com",
       location: "Cyberjaya, Selangor",
-      linkedin: "https://linkedin.com/in/yourprofile",
-      github: "https://github.com/yourprofile",
+      linkedin: "https://linkedin.com/in/wzharith",
+      github: "https://github.com/wzharith",
     },
   },
   sections: {
