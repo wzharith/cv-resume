@@ -29,6 +29,7 @@ export interface CVData {
       name: string;
       issuer: string;
       date: string;
+      verification?: string;
     }>;
     awards: Array<{
       title: string;
@@ -79,9 +80,21 @@ export const cvData: CVData = {
     education: [
       {
         degree: "Bachelor of Computer Science (Honors) in Data Science",
-        institution: "Multimedia University",
+        institution: "Multimedia University (MMU) Cyberjaya",
         date: "June 2021",
         cgpa: "CGPA 3.64",
+      },
+      {
+        degree: "Foundation in IT",
+        institution: "Multimedia University(MMU) Cyberjaya",
+        date: "June 2018",
+        cgpa: "CGPA 3.51",
+      },
+      {
+        degree: "Sijil Pelajaran Malaysia (SPM)",
+        institution: "SM Sains Alam Shah (ASiS), Kuala Lumpur",
+        date: "Nov 2016",
+        cgpa: "7A 2B",
       },
     ],
     skills: [
@@ -109,8 +122,31 @@ export const cvData: CVData = {
         issuer: "Microsoft",
         date: "Oct 2021",
       },
+      {
+        name: "PCEP - Certified Entry-Level Python Programmer",
+        issuer: "Python",
+        date: "Sept 2021",
+        verification: "https://verify.openedg.org/?id=uhgy.Nbve.4qCw",
+      },
+      {
+        name: "Huawei Certified ICT Associate - Artificial Intelligence",
+        issuer: "Huawei",
+        date: "August 2021",
+        verification:
+          "https://e.huawei.com/en/talent/#/cert/certificate-verification/",
+      },
     ],
     awards: [
+      {
+        title: "TM R&D CEO Spot Reward (G-AISHA)",
+        issuer: "CEO of TM R&D, Dr. Sharlene Thiagarajah",
+        date: "4 December 2024",
+      },
+      {
+        title: "Digital Transformation of the Year (2024)",
+        issuer: "WITSA Global Innovation and Tech Excellence Awards",
+        date: "6 October 2024",
+      },
       {
         title: "Second Stage of MaGIC University Startup Challenge",
         issuer: "MaGIC",

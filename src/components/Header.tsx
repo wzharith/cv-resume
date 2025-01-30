@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { EnvelopeIcon, DevicePhoneMobileIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, DevicePhoneMobileIcon, MapPinIcon, GlobeAltIcon, CodeBracketIcon } from '@heroicons/react/24/outline';
 import { CVData } from '../data/cv-data';
 import { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
@@ -15,7 +15,7 @@ export default function Header({ data }: { data: CVData }) {
       animate={{ opacity: 1, y: 0 }}
       className="relative py-12 text-white bg-gradient-to-br from-slate-800 to-slate-900 dark:from-[#0f172a] dark:to-[#1e293b] pl-6 pr-6"
     >
-  <div className="absolute inset-0 bg-noise opacity-10" />
+  <div className="absolute inset-0 bg-noise opacity-10 pointer-events-none" />
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between max-w-4xl mx-auto">
           <div>
@@ -34,8 +34,7 @@ export default function Header({ data }: { data: CVData }) {
           </div>
           
           <button 
-            onClick={() => {setShowPhone(!showPhone); console.log('showPhone', showPhone)}}
-            type='button'
+            onClick={() => {setShowPhone(!showPhone); console.log('showPhone', showPhone)}} 
             className="flex items-center hover:text-slate-100"
           >
             <DevicePhoneMobileIcon className="w-5 h-5 mr-2" />
@@ -45,6 +44,30 @@ export default function Header({ data }: { data: CVData }) {
           <div className="flex items-center">
             <MapPinIcon className="w-5 h-5 mr-2" />
             {data.header.contact.location}
+          </div>
+
+          <div className="flex items-center hover:text-slate-100">
+            <a 
+              href={data.header.contact.linkedin} 
+              target="_blank" 
+              rel="noreferrer" 
+              className="flex items-center hover:text-slate-100"
+            >
+              <GlobeAltIcon className="w-5 h-5 mr-2" />
+              LinkedIn
+            </a>
+          </div>
+
+          <div className="flex items-center hover:text-slate-100">
+            <a 
+              href={data.header.contact.github} 
+              target="_blank" 
+              rel="noreferrer" 
+              className="flex items-center hover:text-slate-100"
+            >
+              <CodeBracketIcon className="w-5 h-5 mr-2" />
+              GitHub
+            </a>
           </div>
         </div>
       </div>
