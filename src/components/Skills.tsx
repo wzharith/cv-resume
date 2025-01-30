@@ -14,9 +14,9 @@ export default function SkillsSection() {
 
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-bold mb-6 text-slate-800 dark:text-slate-200 border-b-2 border-slate-800 dark:border-slate-200 pb-2">
+      {/* <h2 className="text-2xl font-bold mb-6 text-slate-800 dark:text-slate-200 border-b-2 border-slate-800 dark:border-slate-200 pb-2">
         Technical Skills
-      </h2>
+      </h2> */}
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(categorizedSkills).map(([category, skills], index) => (
