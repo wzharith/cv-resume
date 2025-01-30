@@ -6,10 +6,12 @@ import { motion } from 'framer-motion';
 export default function SkillsSection() {
   // Categorize skills based on your existing data
   const categorizedSkills = {
-    'DevOps & Cloud': ['Docker', 'Kubernetes', 'Openshift', 'GitLab CI/CD', 'Bash Script', 'Linux', 'Helm'],
+    'DevOps & Cloud': ['Docker', 'Kubernetes', 'Openshift', 'GitLab CI/CD', 'Bash Script', 'Linux', 'Helm', 'Alibaba Cloud'],
     'Databases': ['MySQL', 'MongoDB', 'PostgreSQL', 'Redis', 'ElasticSearch'],
-    'Languages & Tools': ['Python', 'Geospatial', 'PowerBI', 'ORMs'],
-    'Platforms & Misc': ['DevOps', 'Redis', 'ElasticSearch']
+    'Languages & Tools': ['Python (Cerfified)', 'Celery', 'RabbitMQ','Javascript','Geospatial', 'PowerBI', 'ORMs'],
+    'Platforms & Misc': ['DevOps', 'Redis', 'ElasticSearch', 'Fluentd', 'Kibana', 'Grafana', 'Prometheus'],
+    'AI & LLMs': ['Langchain', 'Azure OpenAI', 'GPT-4o', 'GuardRails'],
+    'Analytics': ['PowerBI (Cerfified)', 'Tableau', 'GeoPandas'],
   };
 
   return (
