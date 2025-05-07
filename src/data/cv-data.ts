@@ -53,12 +53,32 @@ export const cvData: CVData = {
   },
   sections: {
     summary:
-      "Versatile software engineer with 3+ years of experience in software development, data engineering, and DevOps. Proficient in Python, Django, Docker, Kubernetes, and CI/CD pipelines, with a proven track record of optimizing deployment processes and improving system performance. Passionate about open-source contributions, emerging technologies, and mentoring junior developers to foster collaborative growth. Skilled in designing scalable microservices, REST APIs, and AI-powered solutions to drive business innovation.",
+      "Versatile software engineer with 4+ years of experience in software development, data engineering, and DevOps. Proficient in Python, Django, Docker, Kubernetes, and CI/CD pipelines, with a proven track record of optimizing deployment processes and improving system performance. Passionate about open-source contributions, emerging technologies, and mentoring junior developers to foster collaborative growth. Skilled in designing scalable microservices, REST APIs, and AI-powered solutions to drive business innovation.",
     experience: [
       {
         title: "Software Engineer",
+        company: "To be disclosed",
+        date: "July 2025 - Current",
+        points: [
+          "Maintaining existing Kubernetes Cluster",
+          "Learning Golang to support existing systems",
+        ],
+      },
+      {
+        title: "Platform Engineer",
         company: "TM Research & Development",
-        date: "May 2023 - Current",
+        date: "Feb 2025 - June 2025",
+        points: [
+          "Designing, deploying, and maintaining scalable and secure platform solutions to support software development and deployment",
+          "Managing and troubleshooting Kubernetes clusters, containerized applications, and cloud-native solutions while collaborating with cross-functional teams to enhance platform health and reliability",
+          "Implemented monitoring & logging tools (Prometheus, Alloy, Loki) integrated to Grafana, improving debugging efficiency.",
+          "Advocate the use of Helm for deploying in Kubernetes",
+        ],
+      },
+      {
+        title: "Software Engineer",
+        company: "TM Research & Development",
+        date: "May 2023 - Feb 2025",
         points: [
           "Led Backend Engineering team & Support Delivery Lead for 2 mission-critical commercial projects",
           "Spearhead DevOps initiatives, streamlining CI/CD pipelines resulting in a 70% reduction in deployment time",

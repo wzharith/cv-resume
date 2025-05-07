@@ -8,8 +8,8 @@ export default function SkillsSection() {
   const categorizedSkills = {
     'DevOps & Cloud': ['Docker', 'Kubernetes', 'Openshift', 'GitLab CI/CD', 'Bash Script', 'Linux', 'Helm', 'Alibaba Cloud'],
     'Databases': ['MySQL', 'MongoDB', 'PostgreSQL', 'Redis', 'ElasticSearch'],
-    'Languages & Tools': ['Python (Cerfified)', 'Celery', 'RabbitMQ','Javascript','Geospatial', 'PowerBI', 'ORMs'],
-    'Platforms & Misc': ['DevOps', 'Redis', 'ElasticSearch', 'Fluentd', 'Kibana', 'Grafana', 'Prometheus'],
+    'Languages & Tools': ['Go', 'Python (Cerfified)', 'Celery', 'RabbitMQ','Javascript','Geospatial', 'PowerBI', 'ORMs'],
+    'Platforms & Misc': ['DevOps', 'Redis', 'ElasticSearch', 'Fluentd', 'Kibana', 'Grafana', 'Prometheus', 'SonarQube'],
     'AI & LLMs': ['Langchain', 'Azure OpenAI', 'GPT-4o', 'GuardRails'],
     'Analytics': ['PowerBI (Cerfified)', 'Tableau', 'GeoPandas'],
   };
