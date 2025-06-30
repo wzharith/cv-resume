@@ -57,11 +57,10 @@ export const cvData: CVData = {
     experience: [
       {
         title: "Software Engineer",
-        company: "To be disclosed",
+        company: "SEEK Asia",
         date: "July 2025 - Current",
         points: [
-          "Maintaining existing Kubernetes Cluster",
-          "Learning Golang to support existing systems",
+          "Coming soon. To be explored!",
         ],
       },
       {
@@ -157,6 +156,11 @@ export const cvData: CVData = {
       },
     ],
     awards: [
+      {
+        title: "1st Place Team Excellence GCEO Awards (G-AISHA)",
+        issuer: "Group CEO of Telekom Malaysia Berhad, Amar Huzaimi Md Deris",
+        date: "29 May 2025",
+      },
       {
         title: "TM R&D CEO Spot Reward (G-AISHA)",
         issuer: "CEO of TM R&D, Dr. Sharlene Thiagarajah",
